@@ -4,6 +4,7 @@
 #include <sys/types.h> 
 #include <unistd.h> 
 #include <stdlib.h> 
+#include <sys/wait.h>
 
 int main(void){
 	pid_t pid;
@@ -23,6 +24,7 @@ int main(void){
 			exit(0);
 		}
 		else{
+			waitpid(-1,NULL,WNOHANG);
 			for(j=1;j<=10;j++){
 				sleep(1);
 				printf("father working ...\n");
