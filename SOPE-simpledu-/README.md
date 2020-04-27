@@ -1,3 +1,0 @@
-# SOPE-simpledu-
-
-fodasse
