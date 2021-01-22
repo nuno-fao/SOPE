@@ -1,1 +1,0 @@
-From Folha1 haven't yet done exercise 9 and 10, the rest should work just fine
